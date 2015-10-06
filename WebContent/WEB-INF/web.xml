@@ -4,4 +4,51 @@
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>ShowItems</servlet-name>
+  	<servlet-class>com.beat_software.javaweb.ShowItems</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ShowItems</servlet-name>
+  	<url-pattern>/ShowItems</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ShowSession</servlet-name>
+  	<servlet-class>com.beat_software.javaweb.ShowSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ShowSession</servlet-name>
+  	<url-pattern>/ShowSession</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>KidsBooksPage</servlet-name>
+  	<servlet-class>com.beat_software.javaweb.KidsBooksPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>KidsBooksPage</servlet-name>
+  	<url-pattern>/KidsBooksPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>TechBooksPage</servlet-name>
+  	<servlet-class>com.beat_software.javaweb.TechBooksPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TechBooksPage</servlet-name>
+  	<url-pattern>/TechBooksPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>OrderPage</servlet-name>
+  	<servlet-class>com.beat_software.javaweb.OrderPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>OrderPage</servlet-name>
+  	<url-pattern>/OrderPage</url-pattern>
+  </servlet-mapping>
+
+  
 </web-app>
